@@ -14,5 +14,19 @@ int main()
             r2=r1;
             printf("the roots are r1=r2= %f \n",r1);
           }
-    if
+    else if(d>0)
+    	 {
+        	 printf ("roots are real \n");
+        	 r1=(-b+sqrt(d))/(2*a);
+        	 r2=(-b-sqrt(d))/(2*a);
+        	 printf("roots are r1=%f, \t r2=%f",r1,r2);
+    	 }
+	 else
+    	 {
+        	 printf("roots are complex \n");
+        	 rr=-b/(2*a);
+        	 ir=sqrt(-d))/(2*a);
+        	 printf("roots are r1=%f+%fi, \tr2=%f-%fi",rr,ir,rr,ir);
+    	 }
+    return 0;
 }
