@@ -26,5 +26,6 @@ int search(int m, int n, char a[m] [n], char *k)
   } 
 int main() 
   {
-   int n,
+   int n,m;
+    char a[100][100],ele[100]
    
